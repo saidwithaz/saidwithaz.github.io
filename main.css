@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  margin: auto;
+  overflow: hidden;
+  font-family: Menlo;
+}
+.bg {
+  width: 100vw;
+  height: 60vh;
+  background: #e2eafc;
+  opacity: 1;
+  position: relative;
+  background-image: url("../images/pengward\ copy.PNG");
+  background-repeat: no-repeat;
+  background-size: 25% ;
+  background-position: 0% 100%;
+  margin: auto;
+}
+.bg_line{
+  width: 100vw;
+  height: 10px;
+  background: #b6ccfe;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0vw;
+  box-shadow: 10px 10px 30px #b6ccfe;
+  text-shadow: 1px 1px 10px #b6ccfe;
+  z-index: 15;
+}
+.bg_line2{
+  width: 10px;
+  height: 61.5vh;
+  background: #b6ccfe;
+  opacity: 1;
+  position: relative;
+  bottom: 101.5vh;
+  left: 37.5vw;
+  box-shadow: 10px 10px 30px #b6ccfe;
+  text-shadow: 1px 1px 10px #b6ccfe;
+}
+.bg2 {
+  width: 100vw;
+  height: 39.5vh;
+  background: #ccdbfd;
+  opacity: 10;
+  position: relative;
+  top: 0px;
+  left: 0vw;
+  margin: auto;
+}
+.group_name {
+  width: 62.5vw;
+  height: 80vh;
+  color: #ffffff;
+  position: absolute;
+  font-family: Menlo;
+  font-weight: Regular;
+  font-size: 3vw;
+  opacity: 1;
+  text-align: right;
+  right: .0025vw;
+  text-decoration: none;
+  text-shadow: 1px 1px 10px #abc4ff;
+  background: #aba9ff35;
+  background-size: 100px 100px;
+  background-position: 50vw 50vh;
+  padding-right: 5vw;
+  padding-top: 5vh;
+  margin: auto;
+  line-height: 20px;
+}
+.project_pos { 
+  top: 2.5vh;
+  margin: auto;
+}
+#projects:checked ~ .project_pos::after {
+  content: "aaa";
+}
+.img_content {
+  position: relative;
+  z-index: 200;
+  height: 15vh;
+  width: 13vw;
+  bottom: 60px;
+  margin: auto;
+  right: 40%;
+  opacity: 90%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 25px #aba9ff;
+}
+.games_pos{
+  top: 22.5vh;
+}
+.pop_up_page{
+  position: fixed;
+  z-index: 1000;
+  display: block;
+  background-color:#000000;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #aba9ff;
+  opacity: 70%;
+  height: 100vh;
+  width: 100vw;
+}
+.page_img {
+  position: fixed;
+  z-index: 2000;
+  height: 40vh;
+  width: 38vw;
+  margin: auto;
+  opacity: 100%;
+  top: 55%;
+  left: 40%;
+  border-radius: 20px;
+  box-shadow: 1px 1px 25px #aba9ff;
+}
+.ppp_header_text{
+  position: relative;
+  font-size: 3vw;
+  left: 20%;
+  top: 20%;
+}
+.ppp_sub_header_text{
+  position: relative;
+  font-size: 2vw;
+}
+.ppp_body_text{
+  position: relative;
+  font-size: 1.25vw;
+}
+.contact_pos {
+  top: 42.5vh;
+}
+.contact_pos:hover{
+  text-decoration: dashed underline;
+  text-decoration-skip-ink: none;
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+.site_name {
+  width: 15vw;
+  color: #ffffff;
+  position: absolute;
+  left: 5.5vw;
+  top: 2.5vh;
+  font-family: Menlo;
+  font-weight: Regular;
+  font-size: 5vw;
+  opacity: 1;
+  text-align: left;
+  z-index: 10;
+  text-shadow: 1px 1px 10px #abc4ff;
+}
+
+@font-face {
+  font-family: 'oot';
+  src: url('https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/Zelda/FOT-ChiaroStd-B.otf');
+}
+
+.oot {
+font-family: Menlo;
+}
+.oot > div {
+font-weight: 400;
+text-align: left;
+font-size: 16px;
+color: #aba9ff;
+background-color: #edf2fb;
+padding: 25px 25px 25px 25px;
+line-height: 24px;
+border-radius: 24px;
+position: relative;
+width: 95vw;
+top: 64.5vh;
+text-shadow: 1px 1px 10px #abc4ff;
+box-shadow: 1px 1px 10px #edf2fb;
+margin: auto;
+z-index: 7;
+}
+.oot_sub > div {
+  font-weight: 400;
+  text-align: left;
+  font-size: 16px;
+  font-family: Menlo;
+  color: #aba9ff;
+  background-color: #e2eafc;
+  padding: 10px 32px 32px 32px;
+  line-height: 24px;
+  border-radius: 24px;
+  position: relative;
+  width: 15vw;
+  top: 67.5vh;
+  right: 38vw;
+  text-shadow: 1px 1px 10px #aba9ff;
+  box-shadow: 1px 1px 10px #c1d3fe;
+  margin: auto;
+  z-index: 7;
+}
